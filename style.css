@@ -24,3 +24,7 @@ li {
 .skills-list-items {
 	background-color: blue;
 }
+
+#not-maintained {
+	background-color: green;
+}
