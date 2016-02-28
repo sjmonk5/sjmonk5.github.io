@@ -27,10 +27,10 @@ function displaySquare(squaredNumber) {
 
 //displaySquare(square(3));
 
-var pageNode = document.getElementsByTagName('body')[0];
-pageNode.innerHTML = '<h1>Oh Noes!</h1> <p>I just changed the whole page!</p>'
+//var pageNode = document.getElementsByTagName('body')[0];
+//pageNode.innerHTML = '<h1>Oh Noes!</h1> <p>I just changed the whole page!</p>'
 
-pageNode.innerHTML += '...just adding this bit at the end of the page.';
+//pageNode.innerHTML += '...just adding this bit at the end of the page.';
 
 var title = document.getElementById('open-title');
 title.innerHTML = "Thanks for coming to class"
