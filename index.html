@@ -2,39 +2,52 @@
 <html>
 	<head>
 		<title>Stacy J. Poliseo - Digital Marketing Professional</title>
+		
 		<link rel="stylesheet" type="text/css" href="style.css">
 
+		<script type= "text/javascript" src="script.js"></script>
+		
 	</head>
 	<body>
-	<h1>About Me</h1>
-	<img src="sjp2_400x400.jpg" alt="Stacy Poliseo"/><br/>
-	<img src="https://betamore.com/wp-content/uploads/2013/04/logo.png" alt="Betamore"/>
+	<!-- intro -->
+	<h1 id="open-title">About Me</h1>
+	
+	<div><img src="sjp2_400x400.jpg" alt="Stacy Poliseo" id="business-portrait">
+	</div>
+
+	<img id="betamore-logo" src="https://betamore.com/wp-content/uploads/2013/04/logo.png" alt="Betamore"/>
+
 	<h2>Motto</h2>
 	<p>My motto is I'll try <em>anything</em> <strong>twice</strong></p>
 	
 	<h3>My Mission Statement</h3>
-	<p>To teach anyone who wants to learn to code</p>
+	<p>To teach <span class="underline-word">anyone</span> who wants to learn to code</p>
 	<p>This is next</p>
 
-	<h4>Projects I've Worked On</h4>
-	<ul>
-		<li class="project-list-items">Johns Hopkins Medicine Facebook</li>
-		<li class="project-list-items">Johns Hopkins Medicine Twitter</li>
-		<li class="project-list-items">Master's Thesis</li>
-	</ul>
-
-	<h4>My Skills</h4>
-	<ol>
-		<li class="skills-list-items">Public speaking</li>
-		<li class="skills-list-items" id="not-maintained">Relationship building</li>
-	</ol>
-
-	<h4>Certificates</h4>
-	<ol>
-		<li>Google Adwords Certified 2015</li>
+	<div id="project-float-right">
+		<h4>Projects I've Worked On</h4>
+		<!-- <div class="project-list-items"> -->
+			<ul> 
+				<li>Johns Hopkins Medicine Facebook</li>
+				<li>Johns Hopkins Medicine Twitter</li>
+				<li id="not-maintained">Master's Thesis</li>
+			</ul>
+			<!-- </div> -->
+	</div>
+	
+	<div id="skills-float-left">
+		<h4>My Skills</h4>
+			<ol>
+				<li class="skills-list-items">Public speaking</li>
+				<li class="skills-list-items">Relationship building</li>
+				<li class="skills-list-items">Trailblazer</li>
+				<li class="skills-list-items">Trailblazer</li>
+			</ol>
+	</div>
 	<!-- TODO: Add git after lunch -->
-	</ol>
 	<br>
+	
+	<div id="clear-float">
 	<table>
 		<tr>
 			<th>Company</th>
@@ -52,10 +65,10 @@
 			<td>August 2012-Present</td>
 		</tr>
 	</table>
-</br>
-	<a href="https://twitter.com/sjmonk5" title='Twitter'>Follow Me on Twitter</a>
+	</div>
+
+	<span ><a href="https://twitter.com/sjmonk5" id=#large-link title='Twitter'>Follow Me on Twitter</a></span>
 
 	<p><a href="mail:sjpoliseo@gmail.com">Contact Me</a></p>
-
 	</body>
 </html>
